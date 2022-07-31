@@ -1,0 +1,42 @@
+.projects {
+    margin: 3rem 5rem;
+}
+
+.projects a {
+    display: inline-block;
+    font-size: 2rem;
+    background-image: linear-gradient(to right, #fe481c, #ef8354);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.project img {
+    width: 85vw;
+    margin-top: 2em;
+}
+
+.project {
+    position: relative;
+}
+
+.used-languages {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #fe481c, #ef8354);
+    color: white;
+    padding: 1em 3em;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .projects {
+        margin: 3rem 1rem;
+    }
+
+    .used-languages {
+        padding: .5em 2em;
+        font-size: .5em;
+    }
+}

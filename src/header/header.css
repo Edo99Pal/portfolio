@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Indie+Flower&family=Lato:wght@400;700&family=Roboto&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 100vh;
+}
+
+.propic {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+.header-up {
+    height: 40vh;
+    margin: 3rem 5rem; 
+}
+
+.header-up p {
+    font-weight: 500;
+}
+.header-up a {
+    border: none;
+    padding: .75rem 2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hire-me-button {
+    color: white;
+    background-color: #fe481c;
+    margin-right: 1em;
+}
+h1 {
+    font-size: 3rem;
+    font-family: 'Lato';
+}
+
+.job {
+    font-size: 1rem;
+    background-color: #5562ff;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 500px;
+    position: relative;
+    top: -1em;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 280px;
+}
+
+.header-down {
+    color: white;
+    background-color: black;
+    padding: 3rem 5rem;
+    min-height: 230px;
+}
+
+.header-down h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.language {
+    width: 5vw;
+    margin: 0 1em;
+}
+
+.html {
+    width: 15vw;
+}
+
+.laravel {
+    width: 15vw;
+}
+
+.hire-me-button:hover {
+    background-color: white;
+    color: #fe481c;
+    outline: 2px solid #fe481c;
+}
+
+.projects-button:hover {
+    color: white;
+    background-color: black;
+    outline: 2px solid white;
+}
+
+
+
+@media (max-width: 1200px) {
+    .propic {
+        display: block;
+        right: 0;
+        width: 250px;
+        height: 250px;
+    }
+    .header-up {
+        margin: 1em;
+        height: 400px;
+    }
+    .job {
+        display: block;
+        position: relative;
+        top: -15px;
+        left: 0;
+    }
+    .language {
+        min-width: 100px;
+        margin: .5rem;
+    }
+    .html {
+        min-width: 300px;
+    }
+    .header-down {
+        padding: 1em;
+    }
+}
+
+@media (max-width: 500px) {
+    .propic {
+        display: block;
+        right: 0;
+        width: 180px;
+        height: 180px;
+    }
+    .header-down {
+        height: 500px;
+    }
+}
