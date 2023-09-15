@@ -1,0 +1,55 @@
+.contacts {
+    padding: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+input {
+    display: block;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+    margin-bottom: 2em;
+    width: 50vw;
+    padding: 1em;
+}
+
+.socials h4 {
+    margin: 0;
+    margin-bottom: 2em;
+}
+.submit {
+    width: 10em;
+    border-radius: 20px;
+    padding: 1em 2em;
+    position: absolute;
+    right: 5em;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: black;
+    color: white;
+}
+
+textarea  {
+    outline: none;
+    border: 1px solid black;
+    resize: none;
+    margin-bottom: 2em;
+    width: 50vw;
+    padding: 1em;
+}
+.fa, .fab {
+    font-size: 2rem;
+}
+
+.socials > * {
+    margin: 1em;
+}
+
+a {
+    color: black;
+}

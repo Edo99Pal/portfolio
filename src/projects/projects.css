@@ -1,42 +1,135 @@
 .projects {
-    margin: 3rem 5rem;
+    padding: 5em;
 }
 
-.projects a {
+h4 {
+    font-size: 3rem;
+}
+
+.triptastic-name {
     display: inline-block;
-    font-size: 2rem;
-    background-image: linear-gradient(to right, #fe481c, #ef8354);
-    background-clip: text;
-    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #f79156, #ed6a59);
     color: transparent;
-}
-
-.project img {
-    width: 85vw;
-    margin-top: 2em;
+    background-clip: text;
 }
 
 .project {
     position: relative;
+    left: 50%;
+    transform: translateX(-30%);
 }
 
-.used-languages {
+.project img {
+    height: 50vh;
+    display: block;
+}
+
+.description {
+    display: inline-block;
     position: absolute;
-    bottom: 0;
-    right: 0;
-    background-image: linear-gradient(to right, #fe481c, #ef8354);
-    color: white;
-    padding: 1em 3em;
-    border-radius: 5px;
+    top: 80%;
+    left: 35%;
 }
 
-@media (max-width: 600px) {
-    .projects {
-        margin: 3rem 1rem;
-    }
+.triptastic .description {
+    background-color: white;
+    border: 3px solid #f79156;
+    padding: 1em;
+    border-radius: 20px;
+}
 
-    .used-languages {
-        padding: .5em 2em;
-        font-size: .5em;
+.triptastic .description span {
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    background-image: linear-gradient(to right, #f79156, #ed6a59);
+    color: transparent;
+    background-clip: text;
+}
+
+.triptastic .description:hover {
+    background-image: linear-gradient(to right, #f79156, #ed6a59);
+    border: none;
+}
+
+.triptastic .description:hover span {
+    color: white;
+}
+
+.plantatree-name {
+    display: inline-block;
+    background-image: linear-gradient(to right, #06a254, #09e778);
+    color: transparent;
+    background-clip: text;
+}
+
+.plantatree .description {
+    background-color: white;
+    border: 3px solid #09e778;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.plantatree .description span {
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    background-image: linear-gradient(to right, #06a254, #09e778);
+    color: transparent;
+    background-clip: text;
+}
+
+.plantatree .description:hover {
+    background-image: linear-gradient(to right, #06a254, #09e778);
+    border: none;
+}
+
+.plantatree .description:hover span {
+    color: white;
+}
+.verve-name {
+    display: inline-block;
+}
+
+.verve .description {
+    background-color: white;
+    border: 3px solid black;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.verve .description span {
+    display: inline-block;
+    color: black;
+    font-size: 2rem;
+}
+
+.vervee .description:hover {
+    border: none;
+}
+
+.verve .description:hover span {
+    color: white;
+}
+
+
+@media (max-width: 576px) {
+    .projects {
+        padding: 1em;
+    }
+    .project .description {
+        left: 50%;
+        top: 80%;
+    }
+    .project img {
+        height: 25vh;
+        width: 90vw;
+        max-width: 550px;
+    }
+    .project .description span {
+        font-size: 1em;
+    }
+    .project {
+        left: 30%;
     }
 }
