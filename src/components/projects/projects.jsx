@@ -8,7 +8,7 @@ function Projects() {
                 <div class="project">
                     <div class="left">
                         <h3>Urban Nest</h3>
-                        <img src="images/urban-nest.png"/>
+                        <img src="images/urban-nest.png" alt="Urban Nest"/>
                     </div>
                     <div class="desc">
                         <ul>
@@ -25,7 +25,7 @@ function Projects() {
                 <div class="project">
                     <div class="left">
                         <h3>Crwn Clothing</h3>
-                        <img src="images/crwn-clothing.png"/>
+                        <img src="images/crwn-clothing.png"  alt="Crwn Clothing"/>
                     </div>
                     <div class="desc">
                         <ul>
@@ -42,7 +42,7 @@ function Projects() {
                 <div class="project">
                     <div class="left">
                         <h3>Luxury Retreat</h3>
-                        <img src="images/luxury-retreat.png"/>
+                        <img src="images/luxury-retreat.png" alt="Luxury Retreat"/>
                     </div>
                     <div class="desc">
                         <ul>
@@ -59,7 +59,7 @@ function Projects() {
                 <div class="project">
                     <div class="left">
                         <h3>Vérve</h3>
-                        <img src="images/verve.png"/>
+                        <img src="images/verve.png" alt="Verve"/>
                     </div>
                     <div class="desc">
                         <ul>
