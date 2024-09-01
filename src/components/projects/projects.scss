@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: last baseline;
     margin: 2em 0;
+    flex-wrap: wrap;
 }
 
 .project > img {
@@ -33,4 +34,14 @@ li {
 
 img {
     width: 50%;
+}
+
+@media(max-width: 1000px) {
+    #projects {
+        display: inline-block;
+    }
+    img {
+        width: 300px;
+        margin: 2em 12%;
+    }
 }

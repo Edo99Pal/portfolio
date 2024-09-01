@@ -28,3 +28,15 @@
     width: 20vw;
     border-radius: 1em;
 }
+
+@media(max-width: 1000px) {
+    #cv {
+        display: inline-block;
+    }
+    .left {
+        width: 100%;
+    }
+    .right > img {
+        margin: 0 50%;
+    }
+}
