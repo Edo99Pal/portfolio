@@ -4,7 +4,7 @@ function Projects() {
     return(
         <section id="projects">
             <h2>Projects</h2>
-            <a href="https://edo99pal.github.io/urban-nest/" target="_blank">
+            <a href="https://edo99pal.github.io/urban-nest/" target="_blank" rel="noreferrer">
                 <div class="project">
                     <div class="left">
                         <h3>Urban Nest</h3>
@@ -21,7 +21,7 @@ function Projects() {
                     </div>
                 </div>
             </a>
-            <a href="https://edo99pal.github.io/crwn-clothing/" target="_blank">
+            <a href="https://edo99pal.github.io/crwn-clothing/" target="_blank" rel="noreferrer">
                 <div class="project">
                     <div class="left">
                         <h3>Crwn Clothing</h3>
@@ -38,7 +38,7 @@ function Projects() {
                     </div>
                 </div>
             </a>
-            <a href="https://edo99pal.github.io/luxury-retreat/" target="_blank">
+            <a href="https://edo99pal.github.io/luxury-retreat/" target="_blank" rel="noreferrer">
                 <div class="project">
                     <div class="left">
                         <h3>Luxury Retreat</h3>
@@ -55,7 +55,7 @@ function Projects() {
                     </div>
                 </div>
             </a>
-            <a href="https://edo99pal.github.io/verve/" target="_blank">
+            <a href="https://edo99pal.github.io/verve/" target="_blank" rel="noreferrer">
                 <div class="project">
                     <div class="left">
                         <h3>Vérve</h3>
