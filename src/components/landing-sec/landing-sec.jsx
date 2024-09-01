@@ -12,7 +12,7 @@ Following his education, Edoardo embarked on his professional journey in Catania
 Edoardo's career is marked by a commitment to technological excellence and a passion for developing impactful digital solutions.</p>
             </div>
             <div className="right">
-                <img src="images/propic.png"/>
+                <img src="images/propic.png" alt="Edoardo Palamito"/>
             </div>
         </section>
     )
