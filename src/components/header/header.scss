@@ -1,7 +1,6 @@
 header {
     display: flex;
-    justify-content: space-around;
-    width: 58%;
+    justify-content: space-between;
 }
 
 #logo {
@@ -19,6 +18,9 @@ img {
 }
 
 @media(max-width: 1000px) {
+    header {
+        width: 58%;
+    }
     #logo {
         font-size: 1.5rem;
     }
