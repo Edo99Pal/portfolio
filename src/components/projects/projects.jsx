@@ -20,6 +20,7 @@ function Projects() {
                         </ul>
                     </div>
                 </div>
+                <a href="https://edo99pal.github.io/urban-nest/" target="_blank" rel="noreferrer" className="link">Link</a>
             </a>
             <a href="https://edo99pal.github.io/crwn-clothing/" target="_blank" rel="noreferrer">
                 <div className="project">
@@ -36,6 +37,7 @@ function Projects() {
                         </ul>
                     </div>
                 </div>
+                <a href="https://edo99pal.github.io/crwn-clothing/" target="_blank" rel="noreferrer" className="link">Link</a>
             </a>
             <a href="https://edo99pal.github.io/luxury-retreat/" target="_blank" rel="noreferrer">
                 <div className="project">
@@ -52,6 +54,7 @@ function Projects() {
                         </ul>
                     </div>
                 </div>
+                <a href="https://edo99pal.github.io/luxury-retreat/" target="_blank" rel="noreferrer" className="link">Link</a>
             </a>
             <a href="https://edo99pal.github.io/verve/" target="_blank" rel="noreferrer">
                 <div className="project">
@@ -69,6 +72,7 @@ function Projects() {
                         </ul>
                     </div>
                 </div>
+                <a href="https://edo99pal.github.io/verve/" target="_blank" rel="noreferrer" className="link">Link</a>
             </a>
         </section>
     )

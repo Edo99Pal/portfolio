@@ -20,6 +20,14 @@ header {
   top: 0;
 }
 
+button {
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: .5em 1em;
+  background-color: transparent;
+  color: white;
+}
+
 a {
   color: white;
   text-decoration: none;
