@@ -6,23 +6,29 @@
     color: white;
     height: 70vh;
 }
+.left {
+    width: 60%;
+    text-align: justify;
+}
 
-h2 {
+.left > h2 {
     text-align: center;
 }
 
-#bio p {
+.left > p {
     border-left: 1px solid white;
     border-right: 1px solid white;
     padding: 1em;
-    text-align: justify;
 }
 
 @media(max-width: 1000px) {
     #cv {
         display: inline-block;
     }
-    p {
+    .left {
         width: 100%;
+    }
+    .right > img {
+        margin: 0 50%;
     }
 }

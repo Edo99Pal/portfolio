@@ -6,19 +6,18 @@
     flex-wrap: wrap;
 }
 
-.project > img {
-    margin: 5em;
+.details {
+    width: 60%;
+}
+
+.details > img {
+    margin: 1em;
+    width: 80%;
 }
 
 .desc {
     border: 3px solid white;
     border-radius: 1em;
-}
-
-h2 {
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 3rem;
 }
 
 h3 {
@@ -43,6 +42,9 @@ img {
 }
 
 @media(max-width: 1000px) {
+    .details {
+        width: 100%;
+    }
     #projects {
         display: inline-block;
     }

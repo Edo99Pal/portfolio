@@ -5,8 +5,8 @@ function Projects() {
         <section id="projects">
             <h2>Projects</h2>
             <a href="https://edo99pal.github.io/urban-nest/" target="_blank" rel="noreferrer">
-                <div class="project">
-                    <div class="left">
+                <div className="project">
+                    <div className="details">
                         <h3>Urban Nest</h3>
                         <img src="images/urban-nest.png" alt="Urban Nest"/>
                     </div>
@@ -22,8 +22,8 @@ function Projects() {
                 </div>
             </a>
             <a href="https://edo99pal.github.io/crwn-clothing/" target="_blank" rel="noreferrer">
-                <div class="project">
-                    <div class="left">
+                <div className="project">
+                    <div className="details">
                         <h3>Crwn Clothing</h3>
                         <img src="images/crwn-clothing.png"  alt="Crwn Clothing"/>
                     </div>
@@ -39,8 +39,8 @@ function Projects() {
                 </div>
             </a>
             <a href="https://edo99pal.github.io/luxury-retreat/" target="_blank" rel="noreferrer">
-                <div class="project">
-                    <div class="left">
+                <div className="project">
+                    <div className="details">
                         <h3>Luxury Retreat</h3>
                         <img src="images/luxury-retreat.png" alt="Luxury Retreat"/>
                     </div>
@@ -56,8 +56,8 @@ function Projects() {
                 </div>
             </a>
             <a href="https://edo99pal.github.io/verve/" target="_blank" rel="noreferrer">
-                <div class="project">
-                    <div class="left">
+                <div className="project">
+                    <div className="details">
                         <h3>Vérve</h3>
                         <img src="images/verve.png" alt="Verve"/>
                     </div>

@@ -3,7 +3,7 @@ import './landing-sec.scss';
 function LandingPage() {
     return(
         <section id="cv">
-            <div id="bio">
+            <div className="left">
                 <h2>CV</h2>
                 <p>Edoardo Palamito is a skilled web and fullstack developer with a strong background in technology and innovation. He completed his studies at ITI Guglielmo Marconi in Catania, where he laid the foundation for his expertise in the tech field.
 
