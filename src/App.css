@@ -23,6 +23,7 @@ header {
 a {
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 @media (prefers-reduced-motion: no-preference) {
