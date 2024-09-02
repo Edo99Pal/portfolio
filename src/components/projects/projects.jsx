@@ -13,7 +13,7 @@ function Projects() {
                     <div class="desc">
                         <ul>
                             <li>Angular</li>
-                            <li>SASS</li>
+                            <li>SCSS</li>
                             <li>Angular Forms</li>
                             <li>Angular Material</li>
                             <li>Responsive Design</li>
@@ -29,10 +29,9 @@ function Projects() {
                     </div>
                     <div class="desc">
                         <ul>
-                            <li>Angular</li>
-                            <li>SASS</li>
-                            <li>Angular Forms</li>
-                            <li>Angular Material</li>
+                            <li>React</li>
+                            <li>SCSS</li>
+                            <li>Bootstrap</li>
                             <li>Responsive Design</li>
                         </ul>
                     </div>
@@ -47,8 +46,7 @@ function Projects() {
                     <div class="desc">
                         <ul>
                             <li>Angular</li>
-                            <li>SASS</li>
-                            <li>Angular Forms</li>
+                            <li>SCSS</li>
                             <li>Angular Material</li>
                             <li>Responsive Design</li>
                         </ul>
@@ -64,7 +62,7 @@ function Projects() {
                     <div class="desc">
                         <ul>
                             <li>Angular</li>
-                            <li>SASS</li>
+                            <li>SCSS</li>
                             <li>Angular Forms</li>
                             <li>Angular Material</li>
                             <li>Responsive Design</li>
